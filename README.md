@@ -2,4 +2,6 @@
 
 # Face-recognition
 
-Creating a custom box on photo using OpenCv and Python this script works on the live algorithm where image is scanned using camera and a live box is genrated on the persons face
+This Repository is an easy representation of a face recognition Program using python to detect Human faces by Creating a custom Rectangle box on a photo using OpenCV module in Python.
+
+This script works on the live camera as well as it can also be uploaded where the image is extracted based on the frames. These extracted frames are then passed through a detection function where it matches the image to its respective dataset to check ehether an image contains a human faces or not. Then based on the coordinates where the face iss found, the program creates a rect box.
